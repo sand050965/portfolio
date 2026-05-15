@@ -3,12 +3,12 @@ import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "motion/react";
 import { cn } from "@/lib/utils";
 
-export const TextGenerateEffect = ({
-                                       words,
-                                       className,
-                                       filter = true,
-                                       duration = 0.5,
-                                   }: {
+const TextGenerateEffect = ({
+                                words,
+                                className,
+                                filter = true,
+                                duration = 0.5,
+                            }: {
     words: string;
     className?: string;
     filter?: boolean;
@@ -60,3 +60,5 @@ export const TextGenerateEffect = ({
         </div>
     );
 };
+
+export default TextGenerateEffect;

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-export const TailwindcssButton = (
+const TailwindcssButton = (
     {
         title,
         icon,
@@ -31,3 +31,5 @@ export const TailwindcssButton = (
         </button>
     );
 };
+
+export default TailwindcssButton;

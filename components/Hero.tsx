@@ -1,9 +1,9 @@
 "use client";
-import { cn } from "@/lib/utils";
-import { Spotlight } from "@/components/ui/spotlight";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { TailwindcssButton } from "@/components/ui/tailwindcss-buttons";
 import { FaLocationArrow } from "react-icons/fa";
+import { cn } from "@/lib/utils";
+import Spotlight from "@/components/ui/spotlight";
+import TextGenerateEffect from "@/components/ui/text-generate-effect";
+import TailwindcssButton from "@/components/ui/tailwindcss-button";
 
 const Hero = () => {
     return (
