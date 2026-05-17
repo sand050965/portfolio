@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
-import { FloatingNav } from "@/components/ui/floating-navbar";
+import FloatingNav from "@/components/ui/floating-navbar";
 import { FaHome } from "react-icons/fa";
-import { Grid } from "lucide-react";
+import Grid from "@/components/grid";
 
 export default function Home() {
     return (
