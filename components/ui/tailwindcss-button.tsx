@@ -14,7 +14,7 @@ const TailwindcssButton = (
         icon: React.ReactNode;
         position: string;
         handleClick?: () => void;
-        otherClasses: string;
+        otherClasses?: string;
     }
 ) => {
     return (
