@@ -2,12 +2,12 @@ import React from 'react';
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { testimonials, companies } from "@/data";
 
-const Client = () => {
+const TechStack = () => {
     return (
         <div className="py-20" id="testimonials">
             <h1 className="heading">
-                Kind Words from {' '}
-                <span className="text-purple">Satisfied Clients</span>
+                I&apos;m Proficient In These {' '}
+                <span className="text-purple">Tech Stacks</span>
             </h1>
 
             <div className="flex flex-col items-center max-lg:mt-10">
@@ -38,4 +38,4 @@ const Client = () => {
     );
 };
 
-export default Client;
+export default TechStack;

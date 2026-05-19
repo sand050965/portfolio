@@ -2,7 +2,7 @@ import Hero from "@/components/hero";
 import FloatingNav from "@/components/ui/floating-navbar";
 import Grid from "@/components/grid";
 import Project from "@/components/project";
-import Client from "@/components/client";
+import TechStack from "@/components/tech-stack";
 import Experience from "@/components/experience";
 import { navItems } from "@/data";
 
@@ -14,9 +14,9 @@ export default function Home() {
                 <FloatingNav navItems={navItems}/>
                 <Hero/>
                 <Grid/>
-                <Project/>
-                <Client/>
                 <Experience/>
+                <Project/>
+                <TechStack/>
             </div>
         </main>
     );

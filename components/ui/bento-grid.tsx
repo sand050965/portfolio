@@ -48,8 +48,8 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
-    const leftLists = ["PHP (Laravel)", "Java (Spring Boot)", "Python (Flask)", "Node.js (Express)", "JavaScript", "Vue.js (Nuxt)", "React (Next.js)"];
-    const rightLists = ["MySQL", "PostrgeSQL", "Redis", "Git", "AWS", "Docker", "Kubernetes", "RabbitMQ"];
+    const leftLists = ["Problem Solving", "Communication", "Collaboration"];
+    const rightLists = ["Leadership", "PostrgeSQL", "Creative Thinking"];
 
     const [copied, setCopied] = useState(false);
 
@@ -137,7 +137,7 @@ export const BentoGridItem = ({
                                         {item}
                                     </span>
                                 ))}
-                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                                <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#10132E]"></span>
                             </div>
 
                             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">

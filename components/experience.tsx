@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <div className="py-20" id="experience">
             <h1 className="heading">
-                My
+                3+ Years {' '}
                 <span className="text-purple">Work Experience</span>
             </h1>
 

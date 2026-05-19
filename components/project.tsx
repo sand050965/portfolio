@@ -7,8 +7,8 @@ const Project = () => {
     return (
         <div className="py-20" id="projects">
             <h1 className="heading">
-                The collection of my {' '}
-                <span className="text-purple">recent projects</span>
+                Here Are My {' '}
+                <span className="text-purple">Side Projects</span>
             </h1>
 
             <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">

@@ -1,14 +1,15 @@
 export const navItems = [
     { name: "About", link: "#about" },
+    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Tech Stacks", link: "#tech-stacks" },
     { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
+        title: "3+ years of experience in software engineering",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -28,7 +29,7 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "Tech stack",
+        title: "Soft skills",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -37,7 +38,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Tech enthusiast with a passion for development.",
+        title: "Let's connect on LinkedIn.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
+        title: "Built 30+ end-to-end projects.",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -58,7 +59,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Do you want to start a project together?",
+        title: "Interested in working together?",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",

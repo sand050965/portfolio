@@ -1,5 +1,5 @@
 "use client";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import { cn } from "@/lib/utils";
 import Spotlight from "@/components/ui/spotlight";
 import TextGenerateEffect from "@/components/ui/text-generate-effect";
@@ -44,15 +44,15 @@ const Hero = () => {
                     </h1>
 
                     <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                                        words={`Hi! I'm Blake Yang, a Software Engineer.`}/>
+                                        words={`Hi! Welcome to my portfolio. I'm Blake Yang ~`}/>
                     <p className="text-center md:tracking-wider mb-4 text-sm md-text-lg lg:text-2xl">
-                        I have 3+ years of experience in software engineering.
+                        I&apos;m a software engineer from Taiwan.
                     </p>
 
-                    <a href="#about">
+                    <a href="/public/resume.pdf" download="Blake_Resume.pdf">
                         <TailwindcssButton
-                            title="Show my work"
-                            icon={<FaLocationArrow/>}
+                            title="Download My CV"
+                            icon={<FaDownload/>}
                             position="right"
                         />
                     </a>
