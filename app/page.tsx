@@ -3,6 +3,7 @@ import FloatingNav from "@/components/ui/floating-navbar";
 import Grid from "@/components/grid";
 import Project from "@/components/project";
 import Client from "@/components/client";
+import Experience from "@/components/experience";
 import { navItems } from "@/data";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
                 <Grid/>
                 <Project/>
                 <Client/>
+                <Experience/>
             </div>
         </main>
     );
