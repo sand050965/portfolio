@@ -24,29 +24,29 @@ const Hero = () => {
             </div>
 
             <div
-                className="flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 absolute top-0 left-0">
+                className="flex h-screen w-full items-center justify-center dark:bg-black-100 absolute top-0 left-0">
                 <div
                     className={cn(
                         "absolute inset-0",
                         "[background-size:80px_80px]",
                         "[background-image:linear-gradient(to_right,rgba(228,228,231,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(228,228,231,0.4)_1px,transparent_1px)]",
-                        "dark:[background-image:linear-gradient(to_right,rgba(38,38,38,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(38,38,38,0.6)_1px,transparent_1px)]",
+                        "dark:[background-image:linear-gradient(to_right,rgba(38,38,38,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(38,38,38,0.3)_1px,transparent_1px)]",
                     )}
                 />
                 <div
-                    className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"/>
+                    className="pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"/>
             </div>
 
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
                     <h1 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                        Welcome to my portfolio!
+                        I&apos;m currently studying MSCS at NEU.
                     </h1>
 
                     <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                                        words={`Transforming Concepts into Seamless User Experiences`}/>
+                                        words={`Hi! I'm Blake Yang, a Software Engineer.`}/>
                     <p className="text-center md:tracking-wider mb-4 text-sm md-text-lg lg:text-2xl">
-                        Hi! I&apos;m Blake, a Software Engineer based in Seattle. 👋
+                        I have 3+ years of experience in software engineering.
                     </p>
 
                     <a href="#about">

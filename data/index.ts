@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm based in Seattle  now.",
+        title: "I'm based in Seattle, WA 🇺🇸",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
