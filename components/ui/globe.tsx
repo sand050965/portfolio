@@ -2,13 +2,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
 import ThreeGlobe from "three-globe";
-import { useThree, Object3DNode, Canvas, extend } from "@react-three/fiber";
+import { useThree, ThreeElement, Canvas, extend } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
 
 declare module "@react-three/fiber" {
     interface ThreeElements {
-        threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>;
+        threeGlobe: ThreeElement<typeof ThreeGlobe>;
     }
 }
 
@@ -92,13 +92,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
         ...globeConfig,
     };
 
-    useEffect(() => {
-        if (globeRef.current) {
-            _buildData();
-            _buildMaterial();
-        }
-    }, [globeRef.current]);
-
     const _buildMaterial = () => {
         if (!globeRef.current) return;
 
@@ -116,7 +109,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
     const _buildData = () => {
         const arcs = data;
-        let points = [];
+        const points = [];
         for (let i = 0; i < arcs.length; i++) {
             const arc = arcs[i];
             const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
@@ -136,7 +129,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
             });
         }
 
-        // remove duplicates for same lat and lng
         const filteredPoints = points.filter(
             (v, i, a) =>
                 a.findIndex((v2) =>
@@ -150,20 +142,11 @@ export function Globe({ globeConfig, data }: WorldProps) {
     };
 
     useEffect(() => {
-        if (globeRef.current && globeData) {
-            globeRef.current
-            .hexPolygonsData(countries.features)
-            .hexPolygonResolution(3)
-            .hexPolygonMargin(0.7)
-            .showAtmosphere(defaultProps.showAtmosphere)
-            .atmosphereColor(defaultProps.atmosphereColor)
-            .atmosphereAltitude(defaultProps.atmosphereAltitude)
-            .hexPolygonColor((e) => {
-                return defaultProps.polygonColor;
-            });
-            startAnimation();
+        if (globeRef.current) {
+            _buildData();
+            _buildMaterial();
         }
-    }, [globeData]);
+    }, []);
 
     const startAnimation = () => {
         if (!globeRef.current || !globeData) return;
@@ -204,6 +187,22 @@ export function Globe({ globeConfig, data }: WorldProps) {
     };
 
     useEffect(() => {
+        if (globeRef.current && globeData) {
+            globeRef.current
+            .hexPolygonsData(countries.features)
+            .hexPolygonResolution(3)
+            .hexPolygonMargin(0.7)
+            .showAtmosphere(defaultProps.showAtmosphere)
+            .atmosphereColor(defaultProps.atmosphereColor)
+            .atmosphereAltitude(defaultProps.atmosphereAltitude)
+            .hexPolygonColor((e) => {
+                return defaultProps.polygonColor;
+            });
+            startAnimation();
+        }
+    }, [globeData]);
+
+    useEffect(() => {
         if (!globeRef.current || !globeData) return;
 
         const interval = setInterval(() => {
@@ -222,7 +221,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
         return () => {
             clearInterval(interval);
         };
-    }, [globeRef.current, globeData]);
+    }, [globeData]);
 
     return (
         <>

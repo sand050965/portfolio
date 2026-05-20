@@ -5,8 +5,8 @@ import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 
-import BackgroundGradientAnimation from "./gradient-bg";
-import GridGlobe from "./grid-globe";
+import BackgroundGradientAnimation from "@/components/ui/gradient-bg";
+import GridGlobe from "@/components/ui/grid-globe";
 import animationData from "@/data/confetti.json";
 import TailwindcssButton from "@/components/ui/tailwindcss-button";
 
