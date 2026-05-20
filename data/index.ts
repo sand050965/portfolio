@@ -124,35 +124,43 @@ export const experience = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        description: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        title: "Chatflow",
+        description: "Architectured and load-tested a distributed real-time chat system.",
         img: "/p1.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "/ui.earth.com",
+        link: "https://github.com/sand050965/chatflow",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        description: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+        title: "PipelineForge",
+        description: "Developed a distributed CI/CD pipeline execution system.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "/ui.yoom.com",
+        link: "https://github.com/sand050965/pipeline-forge",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        description: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+        title: "Mini Room",
+        description: "Crafted an full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
         img: "/p3.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "/ui.aiimg.com",
+        link: "https://github.com/sand050965/mini-room",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        description: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+        title: "Hand Tracking Canvas",
+        description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "/ui.apple.com",
+        link: "https://github.com/sand050965/hand-tracking-canvas",
+    },
+    {
+        id: 5,
+        title: "Taipei Day Trip",
+        description: "Built a an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
+        img: "/p4.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://github.com/sand050965/taipei-day-trip",
     },
 ];
 
@@ -186,70 +194,6 @@ export const testimonials = [
             "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
-    },
-];
-
-export const companies = [
-    {
-        id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
-];
-
-export const workExperience = [
-    {
-        id: 1,
-        title: "Frontend Engineer Intern",
-        description: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-        className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
-    },
-    {
-        id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        description: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        description: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Lead Frontend Developer",
-        description: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
     },
 ];
 
