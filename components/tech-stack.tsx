@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import { testimonials, companies } from "@/data";
+import { testimonials } from "@/data";
 
 const TechStack = () => {
     return (
