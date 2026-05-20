@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
@@ -52,10 +52,11 @@ export const BentoGridItem = ({
     const rightLists = ["Problem Solving", "Ownership", "Creativity"];
 
     const [copied, setCopied] = useState(false);
+    const [playKey, setPlayKey] = useState(0);
 
     const defaultOptions = {
-        loop: copied,
-        autoplay: copied,
+        loop: false,
+        autoplay: true,
         animationData: animationData,
         rendererSettings: {
             preserveAspectRatio: "xMidYMid slice",
@@ -66,7 +67,15 @@ export const BentoGridItem = ({
         const text = "sand050965@gmail.com";
         navigator.clipboard.writeText(text);
         setCopied(true);
+        setPlayKey((k) => k + 1);
     };
+
+    useEffect(() => {
+        if (copied) {
+            const timer = setTimeout(() => setCopied(false), 2500);
+            return () => clearTimeout(timer);
+        }
+    }, [copied]);
 
     return (
         <div
@@ -156,11 +165,15 @@ export const BentoGridItem = ({
                     )}
                     {id === 6 && (
                         <div className="mt-5 relative">
-                            <div
-                                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                                }`}
-                            >
-                                <Lottie options={defaultOptions} height={200} width={400}/>
+                            <div className="absolute -bottom-5 right-0">
+                                {copied && (
+                                    <Lottie
+                                        key={playKey}
+                                        options={defaultOptions}
+                                        height={200}
+                                        width={400}
+                                    />
+                                )}
                             </div>
 
                             <TailwindcssButton
