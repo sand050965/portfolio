@@ -69,6 +69,58 @@ export const gridItems = [
     },
 ];
 
+export const experience = [
+    {
+        title: "Software Dev. Engineer Intern",
+        company: "Amazon Web Services (AWS)",
+        time: "May 2026 - Aug 2026",
+        location: "Seattle, WA",
+        img: "/experience/amazon.gif",
+        alt: "AWS",
+        content: ["Billing Computing Service Team"]
+    },
+    {
+        title: "Software Engineer",
+        company: "Tryandco",
+        time: "Jun 2023 - Dec 2024",
+        location: "Taipei, Taiwan",
+        img: "/experience/tryandco.jpg",
+        alt: "Tryandco",
+        content: [
+            "Developed backend solutions for 25+ projects using PHP (Laravel), MySQL, and Vue.js to build full-stack CMS platforms, resulting in a 45% improvement in clients’ workflow efficiency, demonstrating entrepreneurial spirit.",
+            "Migrated 20+ EC2 workloads to AWS Lambda and leveraged unit-testing to improve system scalability and reduce infrastructure costs, achieving $2,000 in annual cost savings.",
+            "Implemented 40+ serverless workflows using AWS Lambda, seamlessly integrating REST APIs and rigorously testing with Postman, supporting up to 1,000 concurrent requests without downtime and improving 45% operational efficiency.",
+            "Leveraged load balancing with AWS ALB and caching with ElastiCache for Redis to handle high traffic requests efficiently, improving system throughput by up to 40% and reducing database load by 37%."
+        ]
+    },
+    {
+        title: "Backend Engineer Trainee",
+        company: "WeHelp",
+        time: "Sep 2022 - Mar 2023",
+        location: "Taipei, Taiwan",
+        img: "/experience/wehelp.png",
+        alt: "WeHelp",
+        content: [
+            "Selected as one of 300 participants nationwide for an immersive training program with an emphasis on Full Stack Web Development.",
+            "Crafted a Python (Flask) full-stack e-commerce platform, containerized it using Docker, and seamlessly deployed it on AWS using EC2 with NGINX as a reverse proxy to enhance scalability, reliability, and performance.",
+            "Reducing 55% deployment time and enhancing release reliability and efficiency by 40%, by integrating GitHub Actions, AWS CodeDeploy, and Jenkins with unit tests into CI/CD pipelines to automate deployment processes.",
+        ]
+    },
+    {
+        title: "Backend Engineer",
+        company: "Cathay Life Insurance Co., Ltd.",
+        time: "Apr 2021 - Sep 2022",
+        location: "Taipei, Taiwan",
+        img: "/experience/cathay.webp",
+        alt: "Cathay Life",
+        content: [
+            "Utilized Java (Spring Boot) and MySQL to build REST APIs for the internal system with integration testing, enhancing system performance by 30%.",
+            "Programmed and deployed Java-based data migration batch jobs in an Agile environment, reducing transfer time for 10 million+ records of critical business data by 55%.",
+            "Refactored legacy Java code into modular, unit-testable classes and redesigned the MySQL database schema, achieving 65% higher query performance for new modules to improve system reliability and enabled robust business intelligence reporting",
+        ]
+    },
+];
+
 export const projects = [
     {
         id: 1,
