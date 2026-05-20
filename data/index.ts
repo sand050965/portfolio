@@ -75,7 +75,7 @@ export const experience = [
         company: "Amazon Web Services (AWS)",
         time: "May 2026 - Aug 2026",
         location: "Seattle, WA",
-        img: "/experience/amazon.gif",
+        img: "/experience/aws.jpeg",
         alt: "AWS",
         content: ["Billing Computing Service Team"]
     },
@@ -84,7 +84,7 @@ export const experience = [
         company: "Tryandco",
         time: "Jun 2023 - Dec 2024",
         location: "Taipei, Taiwan",
-        img: "/experience/tryandco.jpg",
+        img: "/experience/tryandco.png",
         alt: "Tryandco",
         content: [
             "Developed backend solutions for 25+ projects using PHP (Laravel), MySQL, and Vue.js to build full-stack CMS platforms, resulting in a 45% improvement in clients’ workflow efficiency, demonstrating entrepreneurial spirit.",

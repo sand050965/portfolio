@@ -1,5 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform, } from "motion/react";
+import { FaArrowRight } from "react-icons/fa";
 import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -81,13 +82,15 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                             </div>
                             <div>
                                 {content.map((point, idx) => (
-                                    <p
+                                    <div
                                         key={idx}
-                                        className="mb-8 text-xs font-normal text-neutral-800 md:text-sm
-  dark:text-neutral-200 hidden md:block"
+                                        className="mb-8 flex items-start gap-2 hidden md:flex"
                                     >
-                                        {point}
-                                    </p>
+                                        <FaArrowRight className="mt-1 shrink-0 text-neutral-500"/>
+                                        <p className="text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+                                            {point}
+                                        </p>
+                                    </div>
                                 ))}
                                 <div className="grid grid-cols-2 gap-4">
                                     <img

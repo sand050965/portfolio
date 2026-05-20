@@ -4,7 +4,7 @@ import { experience } from "@/data";
 
 export default function Experience() {
     return (
-        <div className="py-20" id="projects">
+        <div className="py-20" id="experience">
             <h1 className="heading">
                 My {' '}
                 <span className="text-purple">Work Experience</span>
