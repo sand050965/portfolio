@@ -1,6 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform, } from "motion/react";
-import { FaArrowRight } from "react-icons/fa";
+import { IoMdArrowDroprightCircle } from "react-icons/io";
 import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -86,8 +86,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                                         key={idx}
                                         className="mb-8 flex items-start gap-2 hidden md:flex"
                                     >
-                                        <FaArrowRight className="mt-1 shrink-0 text-neutral-500"/>
-                                        <p className="text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+                                        <IoMdArrowDroprightCircle className="mt-1 shrink-0 text-neutral-500"/>
+                                        <p className="text-lg font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
                                             {point}
                                         </p>
                                     </div>
