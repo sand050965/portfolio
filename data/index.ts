@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Experience", link: "#experience" },
+    { name: "Experience", link: "#work-experience" },
     { name: "Projects", link: "#projects" },
     { name: "Tech Stacks", link: "#tech-stacks" },
     { name: "Contact", link: "#contact" },
@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "3+ years of experience in software engineering",
+        title: "3+ years of work-experience in software engineering",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -69,13 +69,13 @@ export const gridItems = [
     },
 ];
 
-export const experience = [
+export const workExperience = [
     {
         title: "Software Dev. Engineer Intern",
         company: "Amazon Web Services (AWS)",
         time: "May 2026 - Aug 2026",
         location: "Seattle, WA",
-        img: "/experience/aws.jpeg",
+        img: "/work-experience/aws.gif",
         alt: "AWS",
         content: ["Billing Computing Service Team"]
     },
@@ -84,7 +84,7 @@ export const experience = [
         company: "Tryandco",
         time: "Jun 2023 - Dec 2024",
         location: "Taipei, Taiwan",
-        img: "/experience/tryandco.png",
+        img: "/work-experience/tryandco.png",
         alt: "Tryandco",
         content: [
             "Developed backend solutions for 25+ projects using PHP (Laravel), MySQL, and Vue.js to build full-stack CMS platforms, resulting in a 45% improvement in clients’ workflow efficiency, demonstrating entrepreneurial spirit.",
@@ -98,7 +98,7 @@ export const experience = [
         company: "WeHelp",
         time: "Sep 2022 - Mar 2023",
         location: "Taipei, Taiwan",
-        img: "/experience/wehelp.png",
+        img: "/work-experience/wehelp.png",
         alt: "WeHelp",
         content: [
             "Selected as one of 300 participants nationwide for an immersive training program with an emphasis on Full Stack Web Development.",
@@ -111,7 +111,7 @@ export const experience = [
         company: "Cathay Life Insurance Co., Ltd.",
         time: "Apr 2021 - Sep 2022",
         location: "Taipei, Taiwan",
-        img: "/experience/cathay.webp",
+        img: "/work-experience/cathay.webp",
         alt: "Cathay Life",
         content: [
             "Utilized Java (Spring Boot) and MySQL to build REST APIs for the internal system with integration testing, enhancing system performance by 30%.",
