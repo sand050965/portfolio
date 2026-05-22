@@ -38,13 +38,14 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Let's connect on LinkedIn.",
+        title: "Let's Connect!",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
         img: "/grid.svg",
         spareImg: "/b4.svg",
+        link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
     },
 
     {
@@ -157,7 +158,7 @@ export const projects = [
     {
         id: 5,
         title: "Taipei Day Trip",
-        description: "Built a an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
+        description: "Built an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/sand050965/taipei-day-trip",
@@ -201,13 +202,16 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        link: "https://github.com/sand050965"
     },
     {
         id: 2,
-        img: "/twit.svg",
+        img: "/instagram.svg",
+        link: "https://www.instagram.com/"
     },
     {
         id: 3,
-        img: "/link.svg",
+        img: "/linkedin.svg",
+        link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
     },
 ];
