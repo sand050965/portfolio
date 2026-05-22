@@ -144,7 +144,7 @@ export const projects = [
         title: "Mini Room",
         description: "Crafted a full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
         img: "/projects/mini-room.gif",
-        iconLists: ["/tech-stacks/Node.js.svg", "/tech-stacks/Express.svg", "/tech-stacks/Socket.io.svg" , "/tech-stacks/MySQL.svg", "/tech-stacks/Docker.svg", "/tech-stacks/AWS.svg"],
+        iconLists: ["/tech-stacks/Node.js.svg", "/tech-stacks/Express.svg", "/tech-stacks/Socket.io.svg" , "/tech-stacks/MySQL.svg", "/tech-stacks/Docker.svg", "/tech-stacks/GitHub.svg", "/tech-stacks/GitHub Actions.svg", "/tech-stacks/Jenkins.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/mini-room",
     },
     {
@@ -152,7 +152,7 @@ export const projects = [
         title: "Hand Tracking Canvas",
         description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
         img: "/projects/hand-tracking-canvas.gif",
-        iconLists: ["/tech-stacks/Python.svg", "/tech-stacks/Flask.svg", "/tech-stacks/OpenCV.svg", "/tech-stacks/Docker.svg", "/tech-stacks/AWS.svg"],
+        iconLists: ["/tech-stacks/Python.svg", "/tech-stacks/OpenCV.svg", "/tech-stacks/MediaPipe.svg", "/tech-stacks/Flask.svg", "/tech-stacks/Docker.svg", "/tech-stacks/GitHub.svg", "/tech-stacks/GitHub Actions.svg", "/tech-stacks/Jenkins.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/hand-tracking-canvas",
     },
     {
