@@ -127,81 +127,114 @@ export const projects = [
         id: 1,
         title: "Chatflow",
         description: "Architectured and load-tested a distributed real-time chat system.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        img: "/projects/chatflow.jpeg",
+        iconLists: ["/tech-stacks/Java.svg", "/tech-stacks/Spring Boot.svg", "/tech-stacks/Gradle.svg", "/tech-stacks/PostgreSQL.svg", "/tech-stacks/Redis.svg", "/tech-stacks/Docker.svg", "/tech-stacks/GitHub.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/chatflow",
     },
     {
         id: 2,
         title: "PipelineForge",
         description: "Developed a distributed CI/CD pipeline execution system.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+        img: "/projects/pipeline-forge.jpeg",
+        iconLists: ["/tech-stacks/Java.svg", "/tech-stacks/Spring Boot.svg", "/tech-stacks/Gradle.svg", "/tech-stacks/PostgreSQL.svg", "/tech-stacks/Redis.svg", "/tech-stacks/Docker.svg", "/tech-stacks/Kubernetes.svg", "/tech-stacks/Helm.svg", "/tech-stacks/GitHub.svg", "/tech-stacks/GitHub Actions.svg"],
         link: "https://github.com/sand050965/pipeline-forge",
     },
     {
         id: 3,
         title: "Mini Room",
-        description: "Crafted an full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        description: "Crafted a full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
+        img: "/projects/mini-room.gif",
+        iconLists: ["/tech-stacks/Node.js.svg", "/tech-stacks/Express.svg", "/tech-stacks/Socket.io.svg" , "/tech-stacks/MySQL.svg", "/tech-stacks/Docker.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/mini-room",
     },
     {
         id: 4,
         title: "Hand Tracking Canvas",
         description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        img: "/projects/hand-tracking-canvas.gif",
+        iconLists: ["/tech-stacks/Python.svg", "/tech-stacks/Flask.svg", "/tech-stacks/OpenCV.svg", "/tech-stacks/Docker.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/hand-tracking-canvas",
     },
     {
         id: 5,
         title: "Taipei Day Trip",
         description: "Built an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        img: "/projects/taipei-day-trip.gif",
+        iconLists: ["/tech-stacks/Python.svg", "/tech-stacks/Flask.svg", "/tech-stacks/MySQL.svg", "/tech-stacks/Docker.svg", "/tech-stacks/AWS.svg"],
         link: "https://github.com/sand050965/taipei-day-trip",
     },
 ];
 
-export const testimonials = [
+export const techStacks = [
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        title: "Languages",
+        items: [
+            {name: "Java", img: "/tech-stacks/Java.svg"},
+            {name: "Python", img: "/tech-stacks/Python.svg"},
+            {name: "Node.js", img: "/tech-stacks/Node.js.svg"},
+            {name: "PHP", img: "/tech-stacks/PHP.svg"},
+            {name: "JavaScript", img: "/tech-stacks/JavaScript.svg"},
+            {name: "TypeScript", img: "/tech-stacks/TypeScript.svg"},
+            {name: "HTML", img: "/tech-stacks/HTML.svg"},
+            {name: "CSS", img: "/tech-stacks/CSS.svg"},
+        ]
     },
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        title: "Frameworks",
+        items: [
+            {name: "Spring Boot", img: "/tech-stacks/spring-boot.svg"},
+            {name: "Flask", img: "/tech-stacks/Flask.svg"},
+            {name: "Laravel", img: "/tech-stacks/Laravel.svg"},
+            {name: "Express.js", img: "/tech-stacks/Express.js.svg"},
+            {name: "React", img: "/tech-stacks/React.svg"},
+            {name: "Next.js", img: "/tech-stacks/Next.js.svg"},
+            {name: "Vue.js", img: "/tech-stacks/Vue.js.svg"},
+            {name: "Nuxt", img: "/tech-stacks/Nuxt JS.svg"},
+            {name: "Tailwind CSS", img: "/tech-stacks/Tailwind CSS.svg"},
+        ]
     },
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        title: "Database (SQL & NoSQL)",
+        items: [
+            {name: "MySQL", img: "/tech-stacks/MySQL.svg"},
+            {name: "PostgreSQL", img: "/tech-stacks/PostgreSQL.svg"},
+            {name: "SQLite", img: "/tech-stacks/SQLite.svg"},
+            {name: "MongoDB", img: "/tech-stacks/MongoDB.svg"},
+            {name: "Redis", img: "/tech-stacks/Redis.svg"},
+        ]
     },
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        title: "Cloud & Infrastructure",
+        items: [
+            {name: "Amazon Web Services (AWS)", img: "/tech-stacks/AWS.svg"},
+            {name: "Cloudflare", img: "/tech-stacks/CloudFlare.svg"},
+            {name: "Vercel", img: "/tech-stacks/Vercel.svg"},
+        ]
     },
     {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        title: "Developer Tools",
+        items: [
+            {name: "Gradle", img: "/tech-stacks/Gradle.svg"},
+            {name: "Apache Maven", img: "/tech-stacks/Apache Maven.svg"},
+            {name: "Linux", img: "/tech-stacks/Linux.svg"},
+            {name: "Git", img: "/tech-stacks/Git.svg"},
+            {name: "GitHub", img: "/tech-stacks/GitHub.svg"},
+            {name: "Jenkins", img: "/tech-stacks/Jenkins.svg"},
+            {name: "RabbitMQ", img: "/tech-stacks/RabbitMQ.svg"},
+            {name: "Docker", img: "/tech-stacks/Docker.svg"},
+            {name: "Kubernetes", img: "/tech-stacks/Kubernetes.svg"},
+            {name: "Helm", img: "/tech-stacks/Helm.svg"},
+            {name: "NGINX", img: "/tech-stacks/NGINX.svg"},
+            {name: "Grafana", img: "/tech-stacks/Grafana.svg"},
+            {name: "Postman", img: "/tech-stacks/Postman.svg"},
+        ]
     },
 ];
 
 export const socialMedia = [
     {
         id: 1,
-        img: "/git.svg",
+        img: "/GitHub.svg",
         link: "https://github.com/sand050965"
     },
     {
