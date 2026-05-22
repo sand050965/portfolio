@@ -10,16 +10,16 @@ import { navItems } from "@/data";
 export default function Home() {
     return (
         <main
-            className="relative bg-black-100 w-full min-h-[50vh] flex justify-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-            <div className="max-w-7xl w-full">
+            className="relative bg-black-100 w-full min-h-[50vh] flex justify-center flex-col overflow-hidden mx-auto">
+            <div className="max-w-7xl w-full mx-auto sm:px-10 px-5">
                 <FloatingNav navItems={navItems}/>
                 <Hero/>
                 <Grid/>
                 <WorkExperience/>
                 <Project/>
                 <TechStack/>
-                <Footer/>
             </div>
+            <Footer/>
         </main>
     );
 }

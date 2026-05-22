@@ -12,10 +12,10 @@ const Footer = () => {
         >
             <BackgroundRippleEffect />
 
-            <div className="relative z-10">
+            <div className="relative z-10 max-w-7xl mx-auto sm:px-10 px-5">
                 <div className="flex flex-col items-center">
                     <h1 className="heading lg:max-w-[45vw]">
-                        Interested in <span className="text-purple">cofee chatting</span> with me?
+                        Interested in having a <span className="text-purple">cofee chat</span> with me?
                     </h1>
                     <p className="text-white-200 md:mt-10 my-5 text-center">
                         Feel free to reach out to me.
