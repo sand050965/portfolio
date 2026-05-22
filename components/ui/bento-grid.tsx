@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { GrLinkedin } from "react-icons/gr";
 import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
@@ -38,6 +39,7 @@ export const BentoGridItem = ({
                                   imgClassName,
                                   titleClassName,
                                   spareImg,
+                                  link,
                               }: {
     className?: string;
     id: number;
@@ -47,6 +49,7 @@ export const BentoGridItem = ({
     imgClassName?: string;
     titleClassName?: string;
     spareImg?: string;
+    link?: string;
 }) => {
     const leftLists = ["Collaboration", "Communication", "Customer Obsession"];
     const rightLists = ["Problem Solving", "Ownership", "Creativity"];
@@ -62,6 +65,8 @@ export const BentoGridItem = ({
             preserveAspectRatio: "xMidYMid slice",
         },
     };
+
+    const handleLinkedIn = () => window.open(link, "_blank", "noopener,noreferrer");
 
     const handleCopy = () => {
         const text = "sand050965@gmail.com";
@@ -107,7 +112,6 @@ export const BentoGridItem = ({
                         <img
                             src={spareImg}
                             alt={spareImg}
-                            //   width={220}
                             className="object-cover object-center w-full h-full"
                         />
                     )}
@@ -122,17 +126,20 @@ export const BentoGridItem = ({
                 <div
                     className={cn(
                         titleClassName,
-                        "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+                        "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10",
+                        id === 4 && "flex-row md:flex-col items-center md:items-stretch justify-between md:justify-start gap-3"
                     )}
                 >
-                    <div
-                        className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-                        {description}
-                    </div>
-                    <div
-                        className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-                    >
-                        {title}
+                    <div className={cn(id === 4 && "flex flex-col md:contents")}>
+                        <div
+                            className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+                            {description}
+                        </div>
+                        <div
+                            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+                        >
+                            {title}
+                        </div>
                     </div>
 
                     {id === 2 && <GridGlobe/>}
@@ -146,8 +153,8 @@ export const BentoGridItem = ({
                                         key={i}
                                         className="py-2 px-3 lg:py-3 lg:px-4 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
                                     >
-                    {item}
-                  </span>
+                                    {item}
+                                  </span>
                                 ))}
                             </div>
                             <div className="flex flex-col gap-3 lg:gap-5">
@@ -156,13 +163,24 @@ export const BentoGridItem = ({
                                         key={i}
                                         className="py-2 px-3 lg:py-3 lg:px-4 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
                                     >
-                    {item}
-                  </span>
+                                        {item}
+                                    </span>
                                 ))}
                                 <span className="py-4 px-3 lg:py-5 lg:px-4 rounded-lg text-center bg-[#10132E]"></span>
                             </div>
                         </div>
                     )}
+
+                    {id === 4 && (<TailwindcssButton
+                            title="Check out"
+                            icon={<GrLinkedin/>}
+                            position="right"
+                            handleClick={handleLinkedIn}
+                            otherClasses="!bg-[#161A31]"
+                            containerClassName="!w-auto md:!w-60"
+                        />
+                    )}
+
                     {id === 6 && (
                         <div className="mt-5 relative">
                             <div className="absolute -bottom-5 right-0">
@@ -177,7 +195,7 @@ export const BentoGridItem = ({
                             </div>
 
                             <TailwindcssButton
-                                title={copied ? "Email is Copied!" : "Copy my email address"}
+                                title={copied ? "Copied!" : "Copy email"}
                                 icon={<IoCopyOutline/>}
                                 position="left"
                                 handleClick={handleCopy}

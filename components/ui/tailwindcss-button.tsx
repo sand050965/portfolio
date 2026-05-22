@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { cn } from "@/lib/utils";
 
 const TailwindcssButton = (
     {
@@ -7,7 +8,8 @@ const TailwindcssButton = (
         icon,
         position,
         handleClick,
-        otherClasses
+        otherClasses,
+        containerClassName,
     }:
     {
         title: string;
@@ -15,11 +17,15 @@ const TailwindcssButton = (
         position: string;
         handleClick?: () => void;
         otherClasses?: string;
+        containerClassName?: string;
     }
 ) => {
     return (
         <button
-            className="relative inline-flex h-12 w-full overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-60 md:mt-10"
+            className={cn(
+                "relative inline-flex h-12 w-full overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-60 md:mt-10",
+                containerClassName
+            )}
             onClick={handleClick}
         >
             <span
