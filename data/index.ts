@@ -234,17 +234,17 @@ export const techStacks = [
 export const socialMedia = [
     {
         id: 1,
-        img: "/GitHub.svg",
+        img: "/social-media/GitHub.svg",
         link: "https://github.com/sand050965"
     },
     {
         id: 2,
-        img: "/instagram.svg",
+        img: "/social-media/Instagram.svg",
         link: "https://www.instagram.com/"
     },
     {
         id: 3,
-        img: "/linkedin.svg",
+        img: "/social-media/LinkedIn.svg",
         link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
     },
 ];
