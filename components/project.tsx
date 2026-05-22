@@ -35,12 +35,12 @@ const RecentProjects = () => {
                                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                                     style={{ backgroundColor: "#13162D" }}
                                 >
-                                    <img src="/bg.png" alt="bgimg"/>
+                                    <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover"/>
                                 </div>
                                 <img
                                     src={img}
                                     alt="cover"
-                                    className="z-10 absolute bottom-0"
+                                    className="z-10 absolute inset-0 w-full h-full object-cover"
                                 />
                             </div>
 
@@ -58,15 +58,12 @@ const RecentProjects = () => {
                                 {description}
                             </p>
 
-                            <div className="flex items-center justify-between mt-7 mb-3">
-                                <div className="flex items-center">
+                            <div className="flex items-center justify-between mt-7 mb-3 gap-3">
+                                <div className="flex flex-wrap items-center gap-y-2 pl-3 flex-[2] min-w-0">
                                     {iconLists.map((icon, index) => (
                                         <div
                                             key={index}
-                                            className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                                            style={{
-                                                transform: `translateX(-${5 * index + 2}px)`,
-                                            }}
+                                            className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center -ml-3"
                                         >
                                             <img src={icon} alt="icon5" className="p-2"/>
                                         </div>
