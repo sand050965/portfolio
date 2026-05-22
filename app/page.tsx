@@ -4,6 +4,7 @@ import Grid from "@/components/grid";
 import Project from "@/components/project";
 import TechStack from "@/components/tech-stack";
 import WorkExperience from "@/components/work-experience";
+import Footer from "@/components/footer";
 import { navItems } from "@/data";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
                 <WorkExperience/>
                 <Project/>
                 <TechStack/>
+                <Footer/>
             </div>
         </main>
     );
