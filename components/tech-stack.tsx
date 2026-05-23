@@ -4,7 +4,7 @@ import { techStacks } from "@/data";
 
 const TechStack = () => {
     return (
-        <div className="py-20" id="testimonials">
+        <div className="py-20" id="tech-stacks">
             <h1 className="heading">
                 I&apos;m Proficient In These {' '}
                 <span className="text-purple">Tech Stacks</span>
