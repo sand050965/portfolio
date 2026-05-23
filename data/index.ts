@@ -128,7 +128,7 @@ export const projects = [
         title: "Chatflow",
         description: "Architectured and load-tested a distributed real-time chat system.",
         img: "/projects/chatflow.jpeg",
-        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/Redis.svg", "/icons/Docker.svg", "/icons/GitHub.svg", "/icons/AWS.svg"],
+        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/Redis.svg", "/icons/Docker.svg", "/icons/github.svg", "/icons/AWS.svg"],
         link: "https://github.com/sand050965/chatflow",
     },
     {
@@ -234,17 +234,17 @@ export const techStacks = [
 export const socialMedia = [
     {
         id: 1,
-        img: "/social-media/GitHub.svg",
+        img: "/social-media/github.svg",
         link: "https://github.com/sand050965"
     },
     {
         id: 2,
-        img: "/social-media/Instagram.svg",
+        img: "/social-media/instagram.svg",
         link: "https://www.instagram.com/"
     },
     {
         id: 3,
-        img: "/social-media/LinkedIn.svg",
+        img: "/social-media/linkedin.svg",
         link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
     },
 ];

@@ -11,6 +11,7 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import { CgProfile } from "react-icons/cg";
 import { navItems } from "@/data";
 
 const Navbar = () => {
@@ -22,11 +23,12 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <NavBody>
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Copy the email</NavbarButton>
           </div>
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Download the CV</NavbarButton>
+            <NavbarButton variant="primary" href="https://www.linkedin.com/in/blake-yang-0a91aa228/">
+              <img src="/icons/linkedin.svg" alt="icons" width={20} height={20} />
+            </NavbarButton>
           </div>
         </NavBody>
 
