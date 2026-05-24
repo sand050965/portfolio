@@ -52,31 +52,31 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                             <div
                                 className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                                 <div
-                                    className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2"/>
+                                    className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-500 border border-neutral-300 dark:border-neutral-700 p-2"/>
                             </div>
-                            <h3 className="hidden md:flex text-xl md:text-3xl font-bold text-neutral-500 dark:text-neutral-500 ">
+                            <h3 className="hidden md:flex text-xl md:text-3xl font-bold text-neutral-500 dark:text-white">
                                 {title}
                             </h3>
-                            <p className="hidden md:flex text-lg md:text-xl font-semibold text-neutral-500 dark:text-neutral-400">
+                            <p className="hidden md:flex text-lg md:text-xl font-semibold text-neutral-500 dark:text-white">
                                 {company}
                             </p>
-                            <p className="hidden md:flex text-sm text-neutral-400 dark:text-neutral-500">
+                            <p className="hidden md:flex text-sm text-neutral-400 dark:text-neutral-300">
                                 {time}
                             </p>
-                            <p className="hidden md:flex text-sm text-neutral-400 dark:text-neutral-500">
+                            <p className="hidden md:flex text-sm text-neutral-400 dark:text-neutral-300">
                                 {location}
                             </p>
                         </div>
 
                         <div className="relative pl-20 pr-4 md:pl-4 w-full">
-                            <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+                            <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-white">
                                 {title}
                             </h3>
                             <div className="md:hidden mb-6 space-y-1">
                                 <p className="text-base font-semibold text-neutral-600 dark:text-neutral-300">
                                     {company}
                                 </p>
-                                <p className="text-xs text-neutral-400 dark:text-neutral-500">
+                                <p className="text-xs text-neutral-400 dark:text-neutral-300">
                                     {time} · {location}
                                 </p>
                             </div>
@@ -87,7 +87,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                                         className="mb-8 flex items-start gap-2 hidden md:flex"
                                     >
                                         <IoMdArrowDroprightCircle className="mt-1 shrink-0 text-neutral-500"/>
-                                        <p className="text-lg font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                                        <p className="text-lg font-normal text-neutral-800 md:text-lg dark:text-neutral-400">
                                             {point}
                                         </p>
                                     </div>
