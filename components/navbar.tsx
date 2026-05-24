@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import { navItems } from "@/data";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Navbar = () => {
 
@@ -25,10 +26,13 @@ const Navbar = () => {
                 <NavItems items={navItems}/>
                 <div className="flex items-center gap-4">
                     <NavbarButton variant="secondary" href="https://github.com/sand050965">
-                        <img src="/icons/github.svg" alt="icons" width={20} height={20}/>
+                        <img src="/icons/github.svg" alt="icons" width={25} height={25}/>
                     </NavbarButton>
                     <NavbarButton variant="primary" href="https://www.linkedin.com/in/blake-yang-0a91aa228/">
-                        <img src="/icons/linkedin.svg" alt="icons" width={20} height={20}/>
+                        <div className="flex justify-center items-center gap-2">
+                            <div>Let&apos;s Connect</div>
+                            <FaLocationArrow/>
+                        </div>
                     </NavbarButton>
                 </div>
             </NavBody>
