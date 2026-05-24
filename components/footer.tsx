@@ -10,12 +10,12 @@ const Footer = () => {
             className="relative w-full pt-20 pb-10 overflow-hidden"
             id="contact"
         >
-            <BackgroundRippleEffect />
+            <BackgroundRippleEffect/>
 
             <div className="relative z-10 max-w-7xl mx-auto sm:px-10 px-5">
                 <div className="flex flex-col items-center">
                     <h1 className="heading lg:max-w-[45vw]">
-                        Do you have <span className="text-purple">any questions </span> for me?
+                        Do you have <span className="text-purple">any questions </span> <br/> for me ?
                     </h1>
                     <p className="text-white-200 md:mt-10 my-5 text-center">
                         Feel free to reach out anytime!
@@ -23,7 +23,7 @@ const Footer = () => {
                     <a href="mailto:sand050965@gmail.com">
                         <TailwindcssButton
                             title="Let's Get In Touch"
-                            icon={<FaLocationArrow />}
+                            icon={<FaLocationArrow/>}
                             position="right"
                         />
                     </a>
@@ -40,7 +40,7 @@ const Footer = () => {
                                 key={info.id}
                                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
                             >
-                                <img src={info.img} alt="icons" width={20} height={20} />
+                                <img src={info.img} alt="icons" width={20} height={20}/>
                             </div>
                         ))}
                     </div>
