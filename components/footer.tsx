@@ -15,14 +15,14 @@ const Footer = () => {
             <div className="relative z-10 max-w-7xl mx-auto sm:px-10 px-5">
                 <div className="flex flex-col items-center">
                     <h1 className="heading lg:max-w-[45vw]">
-                        Interested in having a <span className="text-purple">cofee chat</span> with me?
+                        Do you have <span className="text-purple">any questions </span> for me?
                     </h1>
                     <p className="text-white-200 md:mt-10 my-5 text-center">
-                        Feel free to reach out to me.
+                        Feel free to reach out anytime!
                     </p>
                     <a href="mailto:sand050965@gmail.com">
                         <TailwindcssButton
-                            title="Let's get in touch"
+                            title="Let's Get In Touch"
                             icon={<FaLocationArrow />}
                             position="right"
                         />
