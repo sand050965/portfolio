@@ -144,7 +144,7 @@ export const projects = [
         title: "Mini Room",
         description: "Crafted a full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
         img: "/projects/mini-room.gif",
-        iconLists: ["/icons/nodedotjs.svg", "/icons/expressdotjs.svg", "/icons/socketdotio.svg", "/icons/mysql.svg", "/icons/html5.svg", "/icons/javascript.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
+        iconLists: ["/icons/nodedotjs.svg", "/icons/expressdotjs.svg", "/icons/socketdotio.svg", "/icons/mysql.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
         link: "https://github.com/sand050965/mini-room",
     },
     {
@@ -152,7 +152,7 @@ export const projects = [
         title: "Hand Tracking Canvas",
         description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
         img: "/projects/hand-tracking-canvas.gif",
-        iconLists: ["/icons/python.svg", "/icons/opencv.svg", "/icons/mediapipe.svg", "/icons/flask.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
+        iconLists: ["/icons/python.svg", "/icons/opencv.svg", "/icons/mediapipe.svg", "/icons/flask.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
         link: "https://github.com/sand050965/hand-tracking-canvas",
     },
     {
@@ -160,7 +160,7 @@ export const projects = [
         title: "Taipei Day Trip",
         description: "Built an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
         img: "/projects/taipei-day-trip.gif",
-        iconLists: ["/icons/python.svg", "/icons/flask.svg", "/icons/mysql.svg", "/icons/html5.svg", "/icons/javascript.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/aws.svg"],
+        iconLists: ["/icons/python.svg", "/icons/flask.svg", "/icons/mysql.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/aws.svg"],
         link: "https://github.com/sand050965/taipei-day-trip",
     },
 ];
