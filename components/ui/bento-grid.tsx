@@ -39,7 +39,6 @@ export const BentoGridItem = ({
                                   imgClassName,
                                   titleClassName,
                                   spareImg,
-                                  link,
                               }: {
     className?: string;
     id: number;
@@ -49,7 +48,6 @@ export const BentoGridItem = ({
     imgClassName?: string;
     titleClassName?: string;
     spareImg?: string;
-    link?: string;
 }) => {
     const leftLists = ["Collaboration", "Communication", "Customer Obsession"];
     const rightLists = ["Problem Solving", "Ownership", "Creativity"];
@@ -65,8 +63,6 @@ export const BentoGridItem = ({
             preserveAspectRatio: "xMidYMid slice",
         },
     };
-
-    const handleLinkedIn = () => window.open(link, "_blank", "noopener,noreferrer");
 
     const handleCopy = () => {
         const text = "sand050965@gmail.com";
@@ -136,7 +132,9 @@ export const BentoGridItem = ({
                             {description}
                         </div>
                         <div
-                            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+                            className={cn(
+                                "font-sans text-lg lg:text-3xl max-w-80 font-bold z-10",
+                            )}
                         >
                             {title}
                         </div>
@@ -169,16 +167,6 @@ export const BentoGridItem = ({
                                 <span className="py-4 px-3 lg:py-5 lg:px-4 rounded-lg text-center bg-[#10132E]"></span>
                             </div>
                         </div>
-                    )}
-
-                    {id === 4 && (<TailwindcssButton
-                            title="Check out"
-                            icon={<GrLinkedin/>}
-                            position="right"
-                            handleClick={handleLinkedIn}
-                            otherClasses="!bg-[#161A31]"
-                            containerClassName="!w-auto md:!w-60"
-                        />
                     )}
 
                     {id === 6 && (
