@@ -128,7 +128,7 @@ export const projects = [
         title: "Chatflow",
         description: "Architectured and load-tested a distributed real-time chat system.",
         img: "/projects/chatflow.jpeg",
-        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/Redis.svg", "/icons/Docker.svg", "/icons/github.svg", "/icons/AWS.svg"],
+        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/redis.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/aws.svg"],
         link: "https://github.com/sand050965/chatflow",
     },
     {
@@ -136,7 +136,7 @@ export const projects = [
         title: "PipelineForge",
         description: "Developed a distributed CI/CD pipeline execution system.",
         img: "/projects/pipeline-forge.jpeg",
-        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgreSQL.svg", "/icons/redis.svg", "/icons/docker.svg", "/icons/kubernetes.svg", "/icons/helm.svg", "/icons/github.svg", "/icons/github-actions.svg"],
+        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/redis.svg", "/icons/docker.svg", "/icons/kubernetes.svg", "/icons/helm.svg", "/icons/grafana.svg", "/icons/github.svg", "/icons/github-actions.svg"],
         link: "https://github.com/sand050965/pipeline-forge",
     },
     {
@@ -152,7 +152,7 @@ export const projects = [
         title: "Hand Tracking Canvas",
         description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
         img: "/projects/hand-tracking-canvas.gif",
-        iconLists: ["/icons/python.svg", "/icons/opencv.svg", "/icons/mediapipe.svg", "/icons/flask.svg", "/icons/Docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
+        iconLists: ["/icons/python.svg", "/icons/opencv.svg", "/icons/mediapipe.svg", "/icons/flask.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
         link: "https://github.com/sand050965/hand-tracking-canvas",
     },
     {
