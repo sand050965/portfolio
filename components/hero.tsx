@@ -71,7 +71,7 @@ const Hero = () => {
 
                     <a href="/resume.pdf" download="Blake_Resume.pdf">
                         <TailwindcssButton
-                            title="Download My CV"
+                            title="Download My Resume"
                             icon={<FaDownload />}
                             position="right"
                         />

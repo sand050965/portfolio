@@ -78,7 +78,7 @@ export const workExperience = [
         location: "Seattle, WA",
         img: "/work-experience/aws.gif",
         alt: "AWS",
-        content: ["Billing Computing Service Team"]
+        content: ["Joined the Billing Computing Service (BCS) Team."]
     },
     {
         title: "Software Engineer",
@@ -239,12 +239,12 @@ export const socialMedia = [
     },
     {
         id: 2,
-        img: "/social-media/instagram.svg",
-        link: "https://www.instagram.com/"
+        img: "/social-media/linkedin.svg",
+        link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
     },
     {
         id: 3,
-        img: "/social-media/linkedin.svg",
-        link: "https://www.linkedin.com/in/blake-yang-0a91aa228/"
+        img: "/social-media/medium.svg",
+        link: "https://medium.com/@sand050965"
     },
 ];
