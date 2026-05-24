@@ -24,6 +24,9 @@ const Navbar = () => {
                 <div className="flex items-center gap-4"/>
                 <NavItems items={navItems}/>
                 <div className="flex items-center gap-4">
+                    <NavbarButton variant="secondary" href="https://github.com/sand050965">
+                        <img src="/icons/github.svg" alt="icons" width={20} height={20}/>
+                    </NavbarButton>
                     <NavbarButton variant="primary" href="https://www.linkedin.com/in/blake-yang-0a91aa228/">
                         <img src="/icons/linkedin.svg" alt="icons" width={20} height={20}/>
                     </NavbarButton>
