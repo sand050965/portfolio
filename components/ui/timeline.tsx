@@ -37,7 +37,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     return (
         <div
             className={cn(
-                "scroller relative z-2 0 w-screen overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+                "relative w-full",
             )}
             ref={containerRef}
         >

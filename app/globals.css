@@ -155,7 +155,7 @@
         @apply border-border !scroll-smooth;
     }
     body {
-        @apply bg-background text-foreground;
+        @apply bg-background text-foreground overflow-x-hidden;
     }
     button {
         @apply active:outline-none;

@@ -8,7 +8,7 @@ import { CometCard } from "@/components/ui/comet-card";
 const Hero = () => {
     return (
         <div className="pb-20 pt-20">
-            <div>
+            <div className="absolute inset-x-0 top-0 h-screen w-full overflow-hidden pointer-events-none">
                 <Spotlight
                     className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
                     fill="white"
@@ -63,7 +63,7 @@ const Hero = () => {
 
                     <TextGenerateEffect
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                        words={`Hi! Welcome to my portfolio ~ I'm Blake Yang!`}
+                        words={`Hi! Welcome to my portfolio~ I'm Blake Yang!`}
                     />
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                         I&apos;m a software engineer from Taiwan.
