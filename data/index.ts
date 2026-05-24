@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "3+ years of work-experience in software engineering",
+        title: "3+ years of work experience in software engineering",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm based in Seattle, WA 🇺🇸",
+        title: "Based in Seattle, WA 🇺🇸",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -38,8 +38,8 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Let's Connect!",
-        description: "",
+        title: "M.S. Computer Science",
+        description: "Northeastern University",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -50,8 +50,8 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Built 30+ end-to-end projects.",
-        description: "The Inside Scoop",
+        title: "30+ end-to-end production-ready projects.",
+        description: "What I've built",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,7 +72,7 @@ export const gridItems = [
 
 export const workExperience = [
     {
-        title: "Software Dev. Engineer Intern",
+        title: "Software Dev Engineer Intern",
         company: "Amazon Web Services (AWS)",
         time: "May 2026 - Aug 2026",
         location: "Seattle, WA",
@@ -95,8 +95,8 @@ export const workExperience = [
         ]
     },
     {
-        title: "Backend Engineer Trainee",
-        company: "WeHelp",
+        title: "Web Dev Engineer Trainee",
+        company: "WeHelp Bootcamp",
         time: "Sep 2022 - Mar 2023",
         location: "Taipei, Taiwan",
         img: "/work-experience/wehelp.png",
