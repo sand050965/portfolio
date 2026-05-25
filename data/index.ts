@@ -182,24 +182,34 @@ export const techStacks = [
     {
         title: "Frameworks",
         items: [
+            // Backend Frameworks
             {name: "Spring Boot", img: "/icons/spring-boot.svg"},
             {name: "Flask", img: "/icons/flask.svg"},
             {name: "Laravel", img: "/icons/laravel.svg"},
             {name: "Express.js", img: "/icons/expressdotjs.svg"},
+
+            // Frontend Frameworks
             {name: "React", img: "/icons/react.svg"},
             {name: "Next.js", img: "/icons/nextdotjs.svg"},
             {name: "Vue.js", img: "/icons/vue.svg"},
             {name: "Nuxt", img: "/icons/nuxt.svg"},
+
+            // CSS Framework
             {name: "Tailwind CSS", img: "/icons/tailwind-css.svg"},
         ]
     },
     {
-        title: "Database (SQL & NoSQL)",
+        title: "Databases (SQL & NoSQL)",
         items: [
+            // Relational (SQL)
             {name: "MySQL", img: "/icons/mysql.svg"},
             {name: "PostgreSQL", img: "/icons/postgresql.svg"},
             {name: "SQLite", img: "/icons/sqlite.svg"},
+
+            // NoSQL (Document)
             {name: "MongoDB", img: "/icons/mongodb.svg"},
+
+            // In-Memory / Cache
             {name: "Redis", img: "/icons/redis.svg"},
         ]
     },
@@ -214,19 +224,36 @@ export const techStacks = [
     {
         title: "Developer Tools",
         items: [
-            {name: "RabbitMQ", img: "/icons/rabbitmq.svg"},
+            // Containerization & Orchestration
             {name: "Docker", img: "/icons/docker.svg"},
             {name: "Kubernetes", img: "/icons/kubernetes.svg"},
             {name: "Helm", img: "/icons/helm.svg"},
-            {name: "Gradle", img: "/icons/gradle.svg"},
-            {name: "Git", img: "/icons/git.svg"},
-            {name: "GitHub", img: "/icons/github.svg"},
-            {name: "Apache Maven", img: "/icons/apache-maven.svg"},
-            {name: "Linux", img: "/icons/linux.svg"},
+
+            // CI/CD & DevOps
             {name: "Jenkins", img: "/icons/jenkins.svg"},
             {name: "NGINX", img: "/icons/nginx.svg"},
+
+            // Monitoring & Messaging
+            {name: "RabbitMQ", img: "/icons/rabbitmq.svg"},
             {name: "Grafana", img: "/icons/grafana.svg"},
+
+            // Version Control
+            {name: "Git", img: "/icons/git.svg"},
+            {name: "GitHub", img: "/icons/github.svg"},
+
+            // Build Tools (Backend)
+            {name: "Gradle", img: "/icons/gradle.svg"},
+            {name: "Apache Maven", img: "/icons/apache-maven.svg"},
+
+            // Build Tools (Frontend)
+            {name: "npm", img: "/icons/npm.svg"},
+            {name: "Vite", img: "/icons/vite.svg"},
+
+            // Developer Tools
             {name: "Postman", img: "/icons/postman.svg"},
+
+            // Design Tools
+            {name: "Figma", img: "/icons/figma.svg"},
         ]
     },
 ];
