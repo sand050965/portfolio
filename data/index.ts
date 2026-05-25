@@ -128,7 +128,16 @@ export const projects = [
         title: "Chatflow",
         description: "Architectured and load-tested a distributed real-time chat system.",
         img: "/projects/chatflow.jpeg",
-        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/redis.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/aws.svg"],
+        iconLists: [
+            "/icons/java.svg",
+            "/icons/spring-boot.svg",
+            "/icons/postgresql.svg",
+            "/icons/redis.svg",
+            "/icons/docker.svg",
+            "/icons/aws.svg",
+            "/icons/gradle.svg",
+            "/icons/github.svg",
+        ],
         link: "https://github.com/sand050965/chatflow",
     },
     {
@@ -136,7 +145,19 @@ export const projects = [
         title: "PipelineForge",
         description: "Developed a distributed CI/CD pipeline execution system.",
         img: "/projects/pipeline-forge.jpeg",
-        iconLists: ["/icons/java.svg", "/icons/spring-boot.svg", "/icons/gradle.svg", "/icons/postgresql.svg", "/icons/redis.svg", "/icons/docker.svg", "/icons/kubernetes.svg", "/icons/helm.svg", "/icons/grafana.svg", "/icons/github.svg", "/icons/github-actions.svg"],
+        iconLists: [
+            "/icons/java.svg",
+            "/icons/spring-boot.svg",
+            "/icons/postgresql.svg",
+            "/icons/redis.svg",
+            "/icons/docker.svg",
+            "/icons/kubernetes.svg",
+            "/icons/helm.svg",
+            "/icons/grafana.svg",
+            "/icons/gradle.svg",
+            "/icons/github-actions.svg",
+            "/icons/github.svg",
+        ],
         link: "https://github.com/sand050965/pipeline-forge",
     },
     {
@@ -144,7 +165,22 @@ export const projects = [
         title: "Mini Room",
         description: "Crafted a full-stack real-time video conferencing system that supports multi-user video calls and instant messaging.",
         img: "/projects/mini-room.gif",
-        iconLists: ["/icons/nodedotjs.svg", "/icons/expressdotjs.svg", "/icons/socketdotio.svg", "/icons/mysql.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
+        iconLists: [
+            "/icons/nodedotjs.svg",
+            "/icons/expressdotjs.svg",
+            "/icons/socketdotio.svg",
+            "/icons/webrtc.svg",
+            "/icons/javascript.svg",
+            "/icons/html5.svg",
+            "/icons/css.svg",
+            "/icons/mongodb.svg",
+            "/icons/docker.svg",
+            "/icons/aws.svg",
+            "/icons/npm.svg",
+            "/icons/github-actions.svg",
+            "/icons/jenkins.svg",
+            "/icons/github.svg",
+        ],
         link: "https://github.com/sand050965/mini-room",
     },
     {
@@ -152,7 +188,20 @@ export const projects = [
         title: "Hand Tracking Canvas",
         description: "Developed a desktop drawing application enabling touchless drawing via real-time hand gesture recognition.",
         img: "/projects/hand-tracking-canvas.gif",
-        iconLists: ["/icons/python.svg", "/icons/opencv.svg", "/icons/mediapipe.svg", "/icons/flask.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/github.svg", "/icons/github-actions.svg", "/icons/jenkins.svg", "/icons/aws.svg"],
+        iconLists: [
+            "/icons/python.svg",
+            "/icons/opencv.svg",
+            "/icons/mediapipe.svg",
+            "/icons/flask.svg",
+            "/icons/javascript.svg",
+            "/icons/html5.svg",
+            "/icons/css.svg",
+            "/icons/docker.svg",
+            "/icons/aws.svg",
+            "/icons/github-actions.svg",
+            "/icons/jenkins.svg",
+            "/icons/github.svg",
+        ],
         link: "https://github.com/sand050965/hand-tracking-canvas",
     },
     {
@@ -160,7 +209,19 @@ export const projects = [
         title: "Taipei Day Trip",
         description: "Built an e-commerce tourism platform enabling users to discover attractions, plan itineraries, and book one-day tours in Taipei with integrated booking and payment features.",
         img: "/projects/taipei-day-trip.gif",
-        iconLists: ["/icons/python.svg", "/icons/flask.svg", "/icons/mysql.svg", "/icons/javascript.svg", "/icons/html5.svg", "/icons/css.svg", "/icons/docker.svg", "/icons/aws.svg"],
+        iconLists: [
+            "/icons/python.svg",
+            "/icons/flask.svg",
+            "/icons/javascript.svg",
+            "/icons/html5.svg",
+            "/icons/css.svg",
+            "/icons/mysql.svg",
+            "/icons/docker.svg",
+            "/icons/aws.svg",
+            "/icons/github-actions.svg",
+            "/icons/jenkins.svg",
+            "/icons/github.svg",
+        ],
         link: "https://github.com/sand050965/taipei-day-trip",
     },
 ];
@@ -169,91 +230,91 @@ export const techStacks = [
     {
         title: "Languages",
         items: [
-            {name: "Java", img: "/icons/java.svg"},
-            {name: "Python", img: "/icons/python.svg"},
-            {name: "Node.js", img: "/icons/nodedotjs.svg"},
-            {name: "PHP", img: "/icons/php.svg"},
-            {name: "JavaScript", img: "/icons/javascript.svg"},
-            {name: "TypeScript", img: "/icons/typescript.svg"},
-            {name: "HTML", img: "/icons/html5.svg"},
-            {name: "CSS", img: "/icons/css.svg"},
+            { name: "Java", img: "/icons/java.svg" },
+            { name: "Python", img: "/icons/python.svg" },
+            { name: "Node.js", img: "/icons/nodedotjs.svg" },
+            { name: "PHP", img: "/icons/php.svg" },
+            { name: "JavaScript", img: "/icons/javascript.svg" },
+            { name: "TypeScript", img: "/icons/typescript.svg" },
+            { name: "HTML", img: "/icons/html5.svg" },
+            { name: "CSS", img: "/icons/css.svg" },
         ]
     },
     {
         title: "Frameworks",
         items: [
             // Backend Frameworks
-            {name: "Spring Boot", img: "/icons/spring-boot.svg"},
-            {name: "Flask", img: "/icons/flask.svg"},
-            {name: "Laravel", img: "/icons/laravel.svg"},
-            {name: "Express.js", img: "/icons/expressdotjs.svg"},
+            { name: "Spring Boot", img: "/icons/spring-boot.svg" },
+            { name: "Flask", img: "/icons/flask.svg" },
+            { name: "Laravel", img: "/icons/laravel.svg" },
+            { name: "Express.js", img: "/icons/expressdotjs.svg" },
 
             // Frontend Frameworks
-            {name: "React", img: "/icons/react.svg"},
-            {name: "Next.js", img: "/icons/nextdotjs.svg"},
-            {name: "Vue.js", img: "/icons/vue.svg"},
-            {name: "Nuxt", img: "/icons/nuxt.svg"},
+            { name: "React", img: "/icons/react.svg" },
+            { name: "Next.js", img: "/icons/nextdotjs.svg" },
+            { name: "Vue.js", img: "/icons/vue.svg" },
+            { name: "Nuxt", img: "/icons/nuxt.svg" },
 
             // CSS Framework
-            {name: "Tailwind CSS", img: "/icons/tailwind-css.svg"},
+            { name: "Tailwind CSS", img: "/icons/tailwind-css.svg" },
         ]
     },
     {
         title: "Databases (SQL & NoSQL)",
         items: [
             // Relational (SQL)
-            {name: "MySQL", img: "/icons/mysql.svg"},
-            {name: "PostgreSQL", img: "/icons/postgresql.svg"},
-            {name: "SQLite", img: "/icons/sqlite.svg"},
+            { name: "MySQL", img: "/icons/mysql.svg" },
+            { name: "PostgreSQL", img: "/icons/postgresql.svg" },
+            { name: "SQLite", img: "/icons/sqlite.svg" },
 
             // NoSQL (Document)
-            {name: "MongoDB", img: "/icons/mongodb.svg"},
+            { name: "MongoDB", img: "/icons/mongodb.svg" },
 
             // In-Memory / Cache
-            {name: "Redis", img: "/icons/redis.svg"},
+            { name: "Redis", img: "/icons/redis.svg" },
         ]
     },
     {
         title: "Cloud & Infrastructure",
         items: [
-            {name: "Amazon Web Services (AWS)", img: "/icons/aws.svg"},
-            {name: "Cloudflare", img: "/icons/cloudflare.svg"},
-            {name: "Vercel", img: "/icons/vercel.svg"},
+            { name: "Amazon Web Services (AWS)", img: "/icons/aws.svg" },
+            { name: "Cloudflare", img: "/icons/cloudflare.svg" },
+            { name: "Vercel", img: "/icons/vercel.svg" },
         ]
     },
     {
         title: "Developer Tools",
         items: [
             // Containerization & Orchestration
-            {name: "Docker", img: "/icons/docker.svg"},
-            {name: "Kubernetes", img: "/icons/kubernetes.svg"},
-            {name: "Helm", img: "/icons/helm.svg"},
+            { name: "Docker", img: "/icons/docker.svg" },
+            { name: "Kubernetes", img: "/icons/kubernetes.svg" },
+            { name: "Helm", img: "/icons/helm.svg" },
 
             // CI/CD & DevOps
-            {name: "Jenkins", img: "/icons/jenkins.svg"},
-            {name: "NGINX", img: "/icons/nginx.svg"},
+            { name: "Jenkins", img: "/icons/jenkins.svg" },
+            { name: "NGINX", img: "/icons/nginx.svg" },
 
             // Monitoring & Messaging
-            {name: "RabbitMQ", img: "/icons/rabbitmq.svg"},
-            {name: "Grafana", img: "/icons/grafana.svg"},
+            { name: "RabbitMQ", img: "/icons/rabbitmq.svg" },
+            { name: "Grafana", img: "/icons/grafana.svg" },
 
             // Version Control
-            {name: "Git", img: "/icons/git.svg"},
-            {name: "GitHub", img: "/icons/github.svg"},
+            { name: "Git", img: "/icons/git.svg" },
+            { name: "GitHub", img: "/icons/github.svg" },
 
             // Build Tools (Backend)
-            {name: "Gradle", img: "/icons/gradle.svg"},
-            {name: "Apache Maven", img: "/icons/apache-maven.svg"},
+            { name: "Gradle", img: "/icons/gradle.svg" },
+            { name: "Apache Maven", img: "/icons/apache-maven.svg" },
 
             // Build Tools (Frontend)
-            {name: "npm", img: "/icons/npm.svg"},
-            {name: "Vite", img: "/icons/vite.svg"},
+            { name: "npm", img: "/icons/npm.svg" },
+            { name: "Vite", img: "/icons/vite.svg" },
 
             // Developer Tools
-            {name: "Postman", img: "/icons/postman.svg"},
+            { name: "Postman", img: "/icons/postman.svg" },
 
             // Design Tools
-            {name: "Figma", img: "/icons/figma.svg"},
+            { name: "Figma", img: "/icons/figma.svg" },
         ]
     },
 ];
