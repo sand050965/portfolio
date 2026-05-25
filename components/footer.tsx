@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="relative z-10 max-w-7xl mx-auto sm:px-10 px-5">
                 <div className="flex flex-col items-center">
                     <h1 className="heading lg:max-w-[45vw]">
-                        Do you have <span className="text-purple">any questions </span> <br/> for me ?
+                        Do you have <span className="text-purple">any questions </span> <br/> for me?
                     </h1>
                     <p className="text-white-200 md:mt-10 my-5 text-center">
                         Feel free to reach out anytime!
