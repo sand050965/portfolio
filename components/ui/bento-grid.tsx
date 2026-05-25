@@ -49,8 +49,8 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
-    const leftLists = ["Collaboration", "Communication", "Customer Obsession"];
-    const rightLists = ["Problem Solving", "Ownership", "Creativity"];
+    const leftLists = ["Collaboration", "Communication", "Problem Solving"];
+    const rightLists = ["Learning", "Ownership", "Creativity"];
 
     const [copied, setCopied] = useState(false);
     const [playKey, setPlayKey] = useState(0);
@@ -128,7 +128,10 @@ export const BentoGridItem = ({
                 >
                     <div className={cn(id === 4 && "flex flex-col md:contents")}>
                         <div
-                            className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+                            className={cn(
+                                "font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10",
+                                id === 4 && "md:max-w-full"
+                            )}>
                             {description}
                         </div>
                         <div
@@ -144,13 +147,13 @@ export const BentoGridItem = ({
                     {id === 2 && <GridGlobe/>}
 
                     {id === 3 && (
-                        <div className="flex gap-1 lg:gap-2 w-fit absolute -right-3">
+                        <div className="flex gap-3 lg:gap-3 w-fit absolute -right-1">
                             <div className="flex flex-col gap-3 lg:gap-5">
                                 <span className="py-4 px-3 lg:py-5 lg:px-4 rounded-lg text-center bg-[#10132E]"></span>
                                 {leftLists.map((item, i) => (
                                     <span
                                         key={i}
-                                        className="py-2 px-3 lg:py-3 lg:px-4 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
+                                        className="py-2 px-3 lg:py-3 lg:px-3 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
                                     >
                                     {item}
                                   </span>
@@ -160,7 +163,7 @@ export const BentoGridItem = ({
                                 {rightLists.map((item, i) => (
                                     <span
                                         key={i}
-                                        className="py-2 px-3 lg:py-3 lg:px-4 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
+                                        className="py-2 px-3 lg:py-3 lg:px-3 text-xs lg:text-sm opacity-50 rounded-lg text-center bg-[#10132E]"
                                     >
                                         {item}
                                     </span>
