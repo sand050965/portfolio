@@ -95,8 +95,8 @@ export const workExperience = [
         ]
     },
     {
-        title: "Web Dev Engineer Trainee",
-        company: "WeHelp Bootcamp",
+        title: "Full Stack Engineer (Training Program)",
+        company: "WeHelp",
         time: "Sep 2022 - Mar 2023",
         location: "Taipei, Taiwan",
         img: "/work-experience/wehelp.png",
