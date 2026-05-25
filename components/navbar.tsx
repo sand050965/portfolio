@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
 import { navItems } from "@/data";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Navbar = () => {
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <NavbarButton variant="primary" href="https://www.linkedin.com/in/blake-yang-0a91aa228/">
                         <div className="flex justify-center items-center gap-2">
                             <div>Let&apos;s Connect</div>
-                            <FaLocationArrow/>
+                            <FaLinkedin/>
                         </div>
                     </NavbarButton>
                 </div>
@@ -61,6 +61,26 @@ const Navbar = () => {
                             <span className="block">{item.name}</span>
                         </a>
                     ))}
+                    <div className="flex w-full flex-col gap-4">
+                        <NavbarButton
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            variant="secondary"
+                            href="https://github.com/sand050965"
+                            className="w-full"
+                        >
+                            <img src="/icons/github.svg" alt="icons" width={25} height={25}/>
+                        </NavbarButton>
+                        <NavbarButton
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            variant="primary"
+                            className="w-full"
+                        >
+                            <div className="flex justify-center items-center gap-2">
+                                <div>Let&apos;s Connect</div>
+                                <FaLinkedin/>
+                            </div>
+                        </NavbarButton>
+                    </div>
                 </MobileNavMenu>
             </MobileNav>
         </ResizableNavbar>
