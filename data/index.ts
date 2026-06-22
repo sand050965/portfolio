@@ -78,7 +78,11 @@ export const workExperience = [
         location: "Seattle, WA",
         img: "/work-experience/aws.gif",
         alt: "AWS",
-        content: ["Joined the Billing Computing Service (BCS) Team."]
+        content: [
+            "Built EventBridge-triggered AWS Lambda data pipelines in Java and TypeScript that hydrated ElastiCache for Redis with 850K records from API Gateway and S3 sources, using S3 as a fallback store.",
+            "Extended an existing Lambda-based monitoring service in Java with a filtering layer backed by Redis lookups, suppressing false-positive alerts across 21M+ accounts and cutting on-call noise by 90%.",
+            "Augmented the monitoring service in Java with tier-aware data prioritization, surfacing $323M+ in business-critical revenue and accelerating critical-incident response by 43%"
+        ]
     },
     {
         title: "Software Engineer",
@@ -88,9 +92,9 @@ export const workExperience = [
         img: "/work-experience/tryandco.png",
         alt: "Tryandco",
         content: [
-            "Developed backend solutions for 25+ projects using PHP (Laravel), MySQL, and Vue.js to build full-stack CMS platforms, resulting in a 45% improvement in clients’ workflow efficiency, demonstrating entrepreneurial spirit.",
+            "Developed back-end and web development solutions for 25+ projects using PHP (Laravel), MySQL, and Vue.js to build full-stack CMS platforms, resulting in a 45% improvement in clients’ workflow efficiency.",
             "Migrated 20+ EC2 workloads to AWS Lambda and leveraged unit-testing to improve system scalability and reduce infrastructure costs, achieving $2,000 in annual cost savings.",
-            "Implemented 40+ serverless workflows using AWS Lambda, seamlessly integrating REST APIs and rigorously testing with Postman, supporting up to 1,000 concurrent requests without downtime and improving 45% operational efficiency.",
+            "Implemented 40+ serverless workflows using AWS Lambda, integrating REST APIs and testing with Postman, supporting up to 1,000 concurrent requests without downtime and improving 45% operational efficiency.",
             "Leveraged load balancing with AWS ALB and caching with ElastiCache for Redis to handle high traffic requests efficiently, improving system throughput by up to 40% and reducing database load by 37%."
         ]
     },
@@ -102,9 +106,9 @@ export const workExperience = [
         img: "/work-experience/wehelp.png",
         alt: "WeHelp",
         content: [
-            "Selected as one of 300 participants nationwide for an immersive training program with an emphasis on Full Stack Web Development.",
-            "Crafted a Python (Flask) full-stack e-commerce platform, containerized it using Docker, and seamlessly deployed it on AWS using EC2 with NGINX as a reverse proxy to enhance scalability, reliability, and performance.",
-            "Reducing 55% deployment time and enhancing release reliability and efficiency by 40%, by integrating GitHub Actions, AWS CodeDeploy, and Jenkins with unit tests into CI/CD pipelines to automate deployment processes.",
+            "Utilized Java (Spring Boot) and MySQL to build REST APIs for the internal system with integration testing, enhancing system performance by 30%.",
+            "Programmed and debugged Java-based data migration batch jobs in an Agile environment, reducing transfer time for 10 million+ records of critical business data by 55%.",
+            "Refactored legacy Java code into modular, unit-testable classes and redesigned the MySQL database schema, achieving 65% higher query performance for new modules and enabling robust business intelligence reporting.",
         ]
     },
     {
