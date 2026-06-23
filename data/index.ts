@@ -81,7 +81,7 @@ export const workExperience = [
         content: [
             "Built EventBridge-triggered AWS Lambda data pipelines in Java and TypeScript that hydrated ElastiCache for Redis with 850K records from API Gateway and S3 sources, using S3 as a fallback store.",
             "Extended an existing Lambda-based monitoring service in Java with a filtering layer backed by Redis lookups, suppressing false-positive alerts across 21M+ accounts and cutting on-call noise by 90%.",
-            "Augmented the monitoring service in Java with tier-aware data prioritization, surfacing $323M+ in business-critical revenue and accelerating critical-incident response by 43%"
+            "Augmented the monitoring service in Java with tier-aware data prioritization, surfacing the cohort generating 98% of business-critical revenue and accelerating critical-incident response by 43%."
         ]
     },
     {
