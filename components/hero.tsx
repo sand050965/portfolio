@@ -69,7 +69,7 @@ const Hero = () => {
                         I&apos;m a software engineer from Taiwan.
                     </p>
 
-                    <a href="/resume.pdf" download="Blake_Resume.pdf">
+                    <a href="/resume/Blake_Yang_Resume.pdf" download="Blake_Yang_Resume.pdf">
                         <TailwindcssButton
                             title="Download Resume"
                             icon={<FaDownload />}
