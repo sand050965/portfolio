@@ -106,9 +106,8 @@ export const workExperience = [
         img: "/work-experience/wehelp.png",
         alt: "WeHelp",
         content: [
-            "Utilized Java (Spring Boot) and MySQL to build REST APIs for the internal system with integration testing, enhancing system performance by 30%.",
-            "Programmed and debugged Java-based data migration batch jobs in an Agile environment, reducing transfer time for 10 million+ records of critical business data by 55%.",
-            "Refactored legacy Java code into modular, unit-testable classes and redesigned the MySQL database schema, achieving 65% higher query performance for new modules and enabling robust business intelligence reporting.",
+            "Built a full-stack e-commerce platform with Python (Flask) and MySQL, containerized with Docker and deployed on AWS EC2 behind an NGINX reverse proxy.",
+            "Automated the CI/CD pipeline using GitHub Actions for build/test, pushing versioned images to Docker Hub, with Jenkins and AWS CodeDeploy handling deployment — cut deployment time by 55% and reduced failed releases by 40%.",
         ]
     },
     {
