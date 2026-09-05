@@ -271,6 +271,7 @@ export const techStacks = [
             { name: "SQLite", img: "/icons/sqlite.svg" },
 
             // NoSQL (Document)
+            { name: "DynamoDB", img: "/icons/dynamodb.svg" },
             { name: "MongoDB", img: "/icons/mongodb.svg" },
 
             // In-Memory / Cache
@@ -318,6 +319,25 @@ export const techStacks = [
 
             // Design Tools
             { name: "Figma", img: "/icons/figma.svg" },
+        ]
+    },
+    {
+        title: "AI Agents & Tools",
+        items: [
+            // Conversational AI
+            { name: "Claude", img: "/icons/claude.svg" },
+            { name: "ChatGPT", img: "/icons/chatgpt.svg" },
+
+            // Coding Agents
+            { name: "Claude Code", img: "/icons/claude-code.svg" },
+            { name: "Codex", img: "/icons/codex.svg" },
+
+            // Self-Hosted Agents
+            { name: "OpenClaw", img: "/icons/openclaw.svg" },
+            { name: "Hermes Agent", img: "/icons/hermes-agent.svg" },
+
+            // Local Model Runtimes
+            { name: "Ollama", img: "/icons/ollama.svg" },
         ]
     },
 ];
